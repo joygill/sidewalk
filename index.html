@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>SIDEWALK SOLDIER</title>
+      
+      
+      
+    <!-- Font Family -->  
+    
+    
+    <!-- CSS from Scratch -->
+    <link href="soldier.css" rel="stylesheet">
+      
+  </head>
+    
+    
+
+  <video id="sidewalk" src="sidewalksoldier.webm" autoplay loop></video>  
+    
+       
+  <body>
+
+      
+   
+      
+    <header>
+        <nav>
+           
+        </nav>
+     
+    </header>
+    
+    <!-- Intro Paragraph --> 
+    <section>
+        <div>
+           <button id="myBtn" onclick="myFunction()">Mute</button>
+        </div>
+      </section>
+      
+     
+        <footer>
+            <nav>
+
+            <a > </a>
+
+            </nav>
+        </footer>
+          
+      
+      <script>
+        var video = document.getElementById("sidewalk");
+        var btn = document.getElementById("myBtn");
+          
+        if (video.mute == false){
+            document.getElementById('sidewalk').muted = true;
+                }
+        else {
+            
+            video.mute = true document.getElementById('sidewalk').muted = false;
+            }
+
+        
+      </script>
+  </body>
+</html>
