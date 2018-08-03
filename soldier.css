@@ -1,15 +1,23 @@
 html{
+     font-family:"Georgia", serif; 
     
-   /* font-family: Georgia, Times, "Times New Roman", serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; }
-  */  
+    /* Gif background instead of video */
+    background-image: url(sidewalk.gif);
+    background-size: cover;
+    
+   
+    
 }
 
- /*#tour{
+@media(max-width:900px){
     
-    z-index: 1;
+    video{
+        display: none;
+    }
 }
-*/
 
+
+/*
 #sidewalk{
     
     
@@ -23,9 +31,11 @@ html{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+*/
+
 
 #myPlayBtn {
-     /*z-index: 1;*/
+     z-index: 1;
     width: 200px;
     font-size: 18px;
     padding: 10px;
@@ -34,18 +44,19 @@ html{
     color: #fff;
     cursor: pointer;
     transform: translate(575%, -100%);
+    transition: color 1.25s;
     
 }
 
 #myPlayBtn:hover {
     background: #ddd;
-    color: black;
+    color: green;
 }
 
 
 
 #myMuteBtn {
-    /*z-index: 1;*/
+    z-index: 1;
     width: 200px;
     font-size: 18px;
     padding: 10px;
@@ -53,9 +64,50 @@ html{
     background: #000;
     color: #fff;
     cursor: pointer;
+    transition: color 1.25s;
 }
 
 #myMuteBtn:hover {
     background: #ddd;
-    color: black;
+    color: green;
+    
+
+}
+
+
+h1{
+    
+   
+    
+}
+section{
+    
+    position: relative;
+    display: flex;
+    flex-flow:row;
+    align-items: stretch;
+    
+}
+
+
+
+#tourList{
+    
+    font-size: 24px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400px;   
+    
+}
+
+#tourList a{
+    
+    color: cornsilk;
+    text-decoration: none;
+    transition: color 1.25s;
+    font-weight: 300;
+}
+
+#tourList a:hover{
+    color:mediumspringgreen;
 }
