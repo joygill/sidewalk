@@ -37,11 +37,13 @@
     </header>
     
     <!-- Intro Paragraph --> 
-    <section>
-        <div>
-           <button id="myBtn" onclick="myFunction()">Mute</button>
+    
+     <div>
+
+         <button id="myBtn" onclick="document.getElementById('sidewalk').muted = !document.getElementById('sidewalk').muted">Mute</button>
+
         </div>
-      </section>
+    
       
      
         <footer>
@@ -53,19 +55,6 @@
         </footer>
           
       
-      <script>
-        var video = document.getElementById("sidewalk");
-        var btn = document.getElementById("myBtn");
-          
-        if (video.mute == false){
-            document.getElementById('sidewalk').muted = true;
-                }
-        else {
-            
-            video.mute = true document.getElementById('sidewalk').muted = false;
-            }
-
-        
-      </script>
+ 
   </body>
 </html>
