@@ -4,6 +4,11 @@ html{
     
 }
 
+#tour{
+    
+    z-index: 1;
+}
+
 #sidewalk{
     
     
@@ -19,6 +24,7 @@ html{
 }
 
 #myPlayBtn {
+     z-index: 1;
     width: 200px;
     font-size: 18px;
     padding: 10px;
@@ -38,6 +44,7 @@ html{
 
 
 #myMuteBtn {
+    z-index: 1;
     width: 200px;
     font-size: 18px;
     padding: 10px;
