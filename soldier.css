@@ -12,7 +12,26 @@
     transform: translate(-50%, -50%);
 }
 
-#myBtn {
+#myPlayBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    transform: translate(575%, -100%);
+    
+}
+
+#myPlayBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+
+
+#myMuteBtn {
     width: 200px;
     font-size: 18px;
     padding: 10px;
@@ -22,7 +41,7 @@
     cursor: pointer;
 }
 
-#myBtn:hover {
+#myMuteBtn:hover {
     background: #ddd;
     color: black;
 }

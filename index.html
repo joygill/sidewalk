@@ -40,10 +40,18 @@
     
      <div>
 
-         <button id="myBtn" onclick="document.getElementById('sidewalk').muted = !document.getElementById('sidewalk').muted">Mute</button>
-
+         <button id="myMuteBtn" onclick="document.getElementById('sidewalk').muted = !document.getElementById('sidewalk').muted">Mute</button>
+         
         </div>
-    
+      
+    <div>
+        
+      <button id="myPlayBtn" onclick= "togglePlayPause()">Play/Pause
+        
+        
+        </button>
+        
+      </div>
       
      
         <footer>
@@ -53,8 +61,13 @@
 
             </nav>
         </footer>
-          
       
- 
+          <script>
+              var video=document.getElementById("sidewalk");
+            function togglePlayPause(){
+                
+                video.paused? video.play() : video.pause();
+                }
+         </script>
   </body>
 </html>
